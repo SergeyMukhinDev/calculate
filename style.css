@@ -1,17 +1,38 @@
+@font-face{
+
+    font-family: 'Calculus';
+    src: url('../fonts/BittypixCountdown-92M2.ttf') format('truetype');
+}
 .calc-row {
     height: 100vh;
     font-family: 'Share Tech Mono', monospace;
 }
-
+.btn-danger {
+    border-radius: 60px;
+}
 .input-window {
+    font-family: Calculus, Tahoma, sans-serif;
     text-align: end;
     font-size: x-large;
 }
 .card {
-    background: black;
+    background: rgb(241, 203, 78);
 }
 .btn_col {
     margin-top: 2px;
     margin-left: 2px;
    
+}
+.btn_history {
+    margin-top: 2px;
+    
+}
+.btn-info {
+        
+    font-size: 10px;
+    
+}
+.memo_text {
+    font-size: 14px;
+    overflow-x: auto;
 }
