@@ -1,8 +1,8 @@
-@font-face{
-
+@font-face {
     font-family: 'Calculus';
     src: url('../fonts/BittypixCountdown-92M2.ttf') format('truetype');
-}
+  }
+  
 .calc-row {
     height: 100vh;
     font-family: 'Share Tech Mono', monospace;

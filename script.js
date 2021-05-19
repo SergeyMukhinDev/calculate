@@ -188,9 +188,11 @@ document.getElementById('btn_hist').addEventListener('click', function () {
         if (document.getElementById('textarea').style.display === 'none') {
         document.getElementById('textarea').style.display = 'block';
         document.getElementById('btn_hist_clr').style.display = 'block';
+        document.getElementById('btn_hist').textContent = 'Закрыть историю';
     } else {
         document.getElementById('textarea').style.display = 'none';
         document.getElementById('btn_hist_clr').style.display = 'none';
+        document.getElementById('btn_hist').textContent = 'История операций';
     }
 })
 
