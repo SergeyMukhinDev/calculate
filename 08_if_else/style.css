@@ -1,0 +1,19 @@
+.game-card {
+    height: 100vh;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.form {
+    display: block;
+    background: url(img/maxresdefault_live.jpg);
+}
+.text-center {
+    background: url(img/maxresdefault_live.jpg);
+}
+.card-header,
+.card-body,
+.card-footer,
+.message {
+    display: none;
+    
+}
